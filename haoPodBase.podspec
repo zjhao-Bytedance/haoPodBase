@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   haoPodBase 是用来测试fishhook hook组件能力的
                        DESC
 
-  s.homepage         = 'https://github.com/zjhao.ch/haoPodBase'
+  s.homepage         = 'https://github.com/zjhao-Bytedance/haoPodBase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zjhao.ch' => 'zjhao.ch@bytedance.com' }
-  s.source           = { :git => 'https://github.com/zjhao.ch/haoPodBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zjhao-Bytedance/haoPodBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
