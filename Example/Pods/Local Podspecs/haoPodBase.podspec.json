@@ -1,0 +1,22 @@
+{
+  "name": "haoPodBase",
+  "version": "0.1.0",
+  "summary": "A short description of haoPodBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjhao.ch/haoPodBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjhao.ch": "zjhao.ch@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/zjhao.ch/haoPodBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "haoPodBase/Classes/**/*"
+}

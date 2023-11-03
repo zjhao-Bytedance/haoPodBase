@@ -1,0 +1,6 @@
+framework module haoPodBase {
+  umbrella header "haoPodBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

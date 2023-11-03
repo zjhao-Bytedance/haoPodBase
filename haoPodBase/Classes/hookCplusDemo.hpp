@@ -19,7 +19,7 @@
 
 template <typename logInfo>
 void printLog(logInfo log) {
-    prinf(@"logloglog");
+    printf("logloglog");
 }
 
 #endif /* hookCplusDemo_hpp */
