@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = {
-'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
-'VALID_ARCHS' => 'x86_64 armv7 arm64',
+'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 arm64',
+'VALID_ARCHS' => 'armv7 arm64',
 }
 s.user_target_xcconfig = {
-'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
-'VALID_ARCHS' => 'x86_64 armv7 arm64',
+'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => ' armv7 arm64',
+'VALID_ARCHS' => 'armv7 arm64',
 }
   s.source_files = 'haoPodBase/Classes/**/*'
   
