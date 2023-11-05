@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'haoPodBase'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'haoPodBase测试用组件'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/zjhao-Bytedance/haoPodBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '11.0'
+  s.pod_target_xcconfig = {
+'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
+'VALID_ARCHS' => 'x86_64 armv7 arm64',
+}
+s.user_target_xcconfig = {
+'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
+'VALID_ARCHS' => 'x86_64 armv7 arm64',
+}
   s.source_files = 'haoPodBase/Classes/**/*'
   
   # s.resource_bundles = {

@@ -1,12 +1,12 @@
 //
-//  hookCplusDemo.hpp
+//  hookCcDemo.h
 //  haoPodBase
 //
-//  Created by ByteDance on 2023/11/3.
+//  Created by ByteDance on 2023/11/5.
 //
 
-#ifndef hookCplusDemo_hpp
-#define hookCplusDemo_hpp
+#ifndef hookCcDemo_h
+#define hookCcDemo_h
 
 #include <stdio.h>
 #include <algorithm>
@@ -22,4 +22,5 @@ void printLog(logInfo log) {
     prinf(@"logloglog");
 }
 
-#endif /* hookCplusDemo_hpp */
+
+#endif /* hookCcDemo_h */
